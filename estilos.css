@@ -3,7 +3,18 @@
     padding: 0;
     font-family: sans-serif;
 }
+body{
+    background-color: #bfefbb;
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgb(197, 236, 227), rgb(94, 108, 235));
+}
 
+.container{
+    padding: 40px;
+    margin: 0 auto;
+}
 
 h4{
     color:#708090;
@@ -11,12 +22,7 @@ h4{
 h2{
     color: 	#191970;
 }
-.container{
-    background-image: url(imagens/estrada.jpeg);
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-}
+
 .primario{
     width: 88%;
     margin: 0 auto;
@@ -35,13 +41,21 @@ h2{
 }
 .menu ul li{
     list-style: none;
-    margin: 0 10px;
+    margin: 0 20px;
     display: inline-block;
 
 }
 
 .menu ul li a{
     text-decoration: none;
-    font-size: 15px;
-    color: white;
+    font-size: 18px;
+    color: #5f5f5f;
+}
+.primario{
+    width: 88%;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
